@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIDYA NIKETAN | Excellence in Education</title>
+  <meta name="description" content="VIDYA NIKETAN, located in Anugrah Narayan Rd, New Area, Kadamkuan, Patna. Providing modern facilities and quality education.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+  <!-- Interaction & Background Elements -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="bg-glow" id="bgGlow"></div>
+  <div class="bubbles-container">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <i class="ph-fill ph-student"></i>
+        <span>VIDYA NIKETAN</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#contact" class="nav-contact-btn">Get in Touch</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">
+        <i class="ph ph-list"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="cbse-badge fade-up">Affiliated to CBSE, New Delhi (10+2)</div>
+      <h1 class="hero-title fade-up" style="transition-delay: 0.1s;">Empowering the Next Generation of Visionaries</h1>
+      <p class="hero-subtitle fade-up" style="transition-delay: 0.2s;">Nursery to Class XII • Excellence in Education</p>
+      <div class="hero-btns">
+        <button class="btn btn-primary" id="enrollBtn">Enroll Now</button>
+        <button class="btn btn-primary" id="discoverBtn">Meet Our Team</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title fade-in">About Our School</h2>
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <h3>Vision & Mission</h3>
+          <p><strong>Vision:</strong> To nurture young minds into compassionate, innovative, and responsible global citizens by providing a stimulating learning environment.</p>
+          <p><strong>Mission:</strong> To impart quality education through a blend of modern teaching methodologies and traditional values, ensuring holistic development of every child.</p>
+          
+          <div class="about-features">
+            <div class="feature">
+              <i class="ph-fill ph-book-open"></i>
+              <span>Modern Curriculum</span>
+            </div>
+            <div class="feature">
+              <i class="ph-fill ph-chalkboard-teacher"></i>
+              <span>Expert Faculty</span>
+            </div>
+            <div class="feature">
+              <i class="ph-fill ph-trophy"></i>
+              <span>Sports & Arts</span>
+            </div>
+            <div class="feature">
+              <i class="ph-fill ph-shield-check"></i>
+              <span>Safe Environment</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="principal-message fade-in glass">
+          <div class="principal-img">
+            <img src="./assets/principal.png" alt="Principal">
+          </div>
+          <div class="principal-text">
+            <h4>Principal's Message</h4>
+            <p>"Welcome to VIDYA NIKETAN. Our aim is not just to impart knowledge, but to build character. We strive to provide an environment where every student can discover their true potential and grow into confident individuals prepared for the challenges of tomorrow."</p>
+            <span class="principal-name">- Principal, VN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <h2 class="section-title fade-in">Campus Life</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item glass zoom-in">
+          <img src="./assets/campus.png" alt="Campus">
+        </div>
+        <div class="gallery-item glass zoom-in" style="transition-delay: 0.1s;">
+          <img src="./assets/library.png" alt="Library">
+        </div>
+        <div class="gallery-item glass zoom-in" style="transition-delay: 0.2s;">
+          <img src="./assets/playground.png" alt="Sports">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academics Section -->
+  <section class="academics" id="academics">
+    <div class="container">
+      <h2 class="section-title fade-in">Our Academics</h2>
+      <div class="academics-grid">
+        
+        <div class="academic-card glass fade-up">
+          <i class="ph-book-open"></i>
+          <h4>Primary Wing</h4>
+          <p>Laying a strong foundation through activity-based learning and creative exploration.</p>
+        </div>
+
+        <div class="academic-card glass fade-up" style="transition-delay: 0.1s;">
+          <i class="ph-atom"></i>
+          <h4>Secondary Wing</h4>
+          <p>Fostering analytical thinking and scientific temper through rigorous academic programs.</p>
+        </div>
+
+        <div class="academic-card glass fade-up" style="transition-delay: 0.2s;">
+          <i class="ph-graduation-cap"></i>
+          <h4>Senior Secondary</h4>
+          <p>Comprehensive preparation for <strong>Class XI & XII</strong> (Science & Commerce) with specialized board prep and competitive exam guidance.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievers Section -->
+  <section class="achievers" id="achievers">
+    <div class="container">
+      <h2 class="section-title fade-in">Top Student Achievers</h2>
+      <div class="achievers-grid">
+        <div class="achiever-card glass fade-up">
+          <div class="achiever-img">
+            <img src="./assets/student1.png" alt="Student Achiever">
+          </div>
+          <div class="achiever-info">
+            <h4>Priya Kumari</h4>
+            <p>10th Board Topper, 98.5% Marks</p>
+          </div>
+        </div>
+        <div class="achiever-card glass fade-up" style="transition-delay: 0.1s;">
+          <div class="achiever-img">
+            <img src="./assets/student2.png" alt="Student Achiever">
+          </div>
+          <div class="achiever-info">
+            <h4>Rahul Singh</h4>
+            <p>NTSE Scholar & Math Olympiad Winner</p>
+          </div>
+        </div>
+        <div class="achiever-card glass fade-up" style="transition-delay: 0.2s;">
+          <div class="achiever-img">
+            <img src="./assets/student3.png" alt="Student Achiever">
+          </div>
+          <div class="achiever-info">
+            <h4>Aman Sharma</h4>
+            <p>Sports Champion, State Level Athletics</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Full-Screen Faculty Exploration Modal -->
+  <div class="faculty-overlay" id="facultyOverlay">
+    <div class="overlay-close" id="closeFaculty">&times;</div>
+    <div class="container overlay-content">
+      <div class="overlay-header">
+        <h2>Meet Our Team</h2>
+        <p>Leadership & Expert Educators at VIDYA NIKETAN</p>
+      </div>
+
+      <!-- Leadership -->
+      <div class="leadership-section">
+        <h3 class="sub-title">School Leadership</h3>
+        <div class="leadership-grid">
+          <div class="leadership-card glass">
+            <div class="leader-img"><img src="./assets/director.png" alt="Director"></div>
+            <div class="leader-info">
+              <h4>Dr. S.K. Singh</h4>
+              <p class="leader-role">Director & Founder</p>
+            </div>
+          </div>
+          <div class="leadership-card glass">
+            <div class="leader-img"><img src="./assets/principal.png" alt="Principal"></div>
+            <div class="leader-info">
+              <h4>Mrs. Ritu Singh</h4>
+              <p class="leader-role">Principal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Faculty Grid -->
+      <div class="faculty-section">
+        <h3 class="sub-title">Expert Faculty</h3>
+        <p class="click-hint">Click on a teacher to see their achievements</p>
+        <div class="faculty-grid">
+          <!-- 12 Teachers -->
+          <div class="faculty-card glass" data-teacher="1">
+            <div class="faculty-img"><img src="./assets/teacher1.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Mrs. Sarita Devi</h4>
+              <p class="faculty-subject">Mathematics</p>
+            </div>
+          </div>
+          <div class="faculty-card glass" data-teacher="2">
+            <div class="faculty-img"><img src="./assets/teacher2.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Mr. Rajesh Khanna</h4>
+              <p class="faculty-subject">Science</p>
+            </div>
+          </div>
+          <div class="faculty-card glass" data-teacher="3">
+            <div class="faculty-img"><img src="./assets/teacher3.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Ms. Anjali Verma</h4>
+              <p class="faculty-subject">English</p>
+            </div>
+          </div>
+          <div class="faculty-card glass" data-teacher="4">
+            <div class="faculty-img"><img src="./assets/teacher4.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Mr. Amit Singh</h4>
+              <p class="faculty-subject">Social Studies</p>
+            </div>
+          </div>
+          <div class="faculty-card glass" data-teacher="5">
+            <div class="faculty-img"><img src="./assets/teacher5.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Mrs. Kavita Roy</h4>
+              <p class="faculty-subject">Computer Science</p>
+            </div>
+          </div>
+          <div class="faculty-card glass" data-teacher="6">
+            <div class="faculty-img"><img src="./assets/teacher1.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Mr. Sanjay Mishra</h4>
+              <p class="faculty-subject">Hindi</p>
+            </div>
+          </div>
+          <div class="faculty-card glass" data-teacher="7">
+            <div class="faculty-img"><img src="./assets/teacher2.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Ms. Neha Gupta</h4>
+              <p class="faculty-subject">Biology</p>
+            </div>
+          </div>
+          <div class="faculty-card glass" data-teacher="8">
+            <div class="faculty-img"><img src="./assets/teacher3.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Mr. Rahul Mehta</h4>
+              <p class="faculty-subject">Physics</p>
+            </div>
+          </div>
+          <div class="faculty-card glass" data-teacher="9">
+            <div class="faculty-img"><img src="./assets/teacher4.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Mrs. Pooja Sharma</h4>
+              <p class="faculty-subject">Chemistry</p>
+            </div>
+          </div>
+          <div class="faculty-card glass" data-teacher="10">
+            <div class="faculty-img"><img src="./assets/teacher5.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Mr. Vikram Rathore</h4>
+              <p class="faculty-subject">Physical Education</p>
+            </div>
+          </div>
+          <div class="faculty-card glass" data-teacher="11">
+            <div class="faculty-img"><img src="./assets/teacher1.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Ms. Deepa Das</h4>
+              <p class="faculty-subject">Art & Craft</p>
+            </div>
+          </div>
+          <div class="faculty-card glass" data-teacher="12">
+            <div class="faculty-img"><img src="./assets/teacher2.png" alt="Teacher"></div>
+            <div class="faculty-info">
+              <h4>Mrs. Meenakshi Iyer</h4>
+              <p class="faculty-subject">Music</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Teacher Detail Modal -->
+  <div class="detail-modal" id="detailModal">
+    <div class="detail-content glass">
+      <div class="detail-close" id="closeDetail">&times;</div>
+      <div class="about-grid">
+        <div class="about-image fade-left">
+          <img src="./assets/classroom.png" alt="Vidya Niketan Classroom">
+        </div>
+        <div class="about-content fade-right">
+          <h3>Welcome to VIDYA NIKETAN</h3>
+          <p>Vidya Niketan is a premier co-educational institution in Patna, <strong>affiliated to CBSE, New Delhi</strong>. We offer a comprehensive educational journey from <strong>Nursery to Class XII</strong>, focused on holistic development and academic excellence.</p>
+          <h4 id="detSubject">Subject</h4>
+          <p class="det-exp" id="detExp">Experience</p>
+          <div class="achievements-box">
+            <h5>Key Achievements</h5>
+            <ul id="detAchievements">
+              <!-- Dynamically filled -->
+            </ul>
+          </div>
+          <p id="detAbout">About...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </section>
+
+  <!-- Inspiration Section (Quotes) -->
+  <section class="inspiration" id="inspiration">
+    <div class="container">
+      <h2 class="section-title fade-in">Words of Wisdom</h2>
+      <div class="quotes-grid">
+        <div class="quote-card glass fade-in q-blue">
+          <i class="ph ph-quotes"></i>
+          <p>"The roots of education are bitter, but the fruit is sweet."</p>
+          <span>- Aristotle</span>
+        </div>
+        <div class="quote-card glass fade-in q-gold" style="transition-delay: 0.1s;">
+          <i class="ph ph-quotes"></i>
+          <p>"Education is the most powerful weapon which you can use to change the world."</p>
+          <span>- Nelson Mandela</span>
+        </div>
+        <div class="quote-card glass fade-in q-purple" style="transition-delay: 0.2s;">
+          <i class="ph ph-quotes"></i>
+          <p>"The beautiful thing about learning is that no one can take it away from you."</p>
+          <span>- B.B. King</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title fade-in">Get in Touch</h2>
+      <div class="contact-grid">
+        
+        <div class="contact-info fade-in">
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="ph-fill ph-map-pin"></i>
+            </div>
+            <div class="info-text">
+              <h5>Our Location</h5>
+              <p>Anugrah Narayan Rd, New Area<br>Kadamkuan, Patna, Bihar 800003</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="ph-fill ph-phone"></i>
+            </div>
+            <div class="info-text">
+              <h5>Call Us</h5>
+              <p>+91 98765 43210<br>+91 91234 56789</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="ph-fill ph-envelope"></i>
+            </div>
+            <div class="info-text">
+              <h5>Email Us</h5>
+              <p>info@vidyaniketan.edu.in<br>admissions@vidyaniketan.edu.in</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form fade-in">
+          <form onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          VIDYA <span>NIKETAN</span>
+        </div>
+        <p>Empowering students to achieve their full potential.</p>
+        <div class="social-links">
+          <a href="#"><i class="ph-fill ph-facebook-logo"></i></a>
+          <a href="#"><i class="ph-fill ph-twitter-logo"></i></a>
+          <a href="#"><i class="ph-fill ph-instagram-logo"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 VIDYA NIKETAN. All Rights Reserved.</p>
+        <p style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.8;">Affiliated to CBSE, New Delhi | Nursery to Class XII</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Multi-Step Booking Modal -->
+  <div class="modal-overlay" id="admissionModal">
+    <div class="modal-content glass">
+      <div class="modal-header">
+        <h3 id="modalTitle">Book Your Seat</h3>
+        <button class="modal-close" id="closeModal">&times;</button>
+      </div>
+      
+      <!-- Progress Bar -->
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+        <div class="step-label active">Details</div>
+        <div class="step-label">Payment</div>
+        <div class="step-label">Receipt</div>
+      </div>
+
+      <form class="admission-form" id="admissionForm">
+        <!-- Step 1: Details -->
+        <div class="form-step active" id="step1">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Student Full Name</label>
+              <input type="text" class="form-control" name="studentName" placeholder="Enter student's full name" required>
+            </div>
+            <div class="form-group">
+              <label>Date of Birth</label>
+              <input type="date" class="form-control" name="dob" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Class for Admission</label>
+              <select class="form-control" name="class" required>
+                <option value="">Select Class</option>
+                <option value="Nursery">Nursery</option>
+                <option value="LKG">LKG</option>
+                <option value="UKG">UKG</option>
+                <option value="Class 1">Class 1</option>
+                <option value="Class 2">Class 2</option>
+                <option value="Class 3">Class 3</option>
+                <option value="Class 4">Class 4</option>
+                <option value="Class 5">Class 5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Gender</label>
+              <select class="form-control" name="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Parent/Guardian Name</label>
+              <input type="text" class="form-control" name="parentName" placeholder="Enter parent's name" required>
+            </div>
+            <div class="form-group">
+              <label>Contact Number</label>
+              <input type="tel" class="form-control" name="phone" placeholder="Enter 10-digit number" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Full Address</label>
+            <textarea class="form-control" name="address" rows="2" placeholder="Enter residential address" required></textarea>
+          </div>
+          <button type="button" class="btn btn-primary next-step">Proceed to Payment</button>
+        </div>
+
+        <!-- Step 2: Payment -->
+        <div class="form-step" id="step2">
+          <div class="payment-summary glass">
+            <div class="summary-item">
+              <span>Advance Booking Fee:</span>
+              <span class="amount">₹500.00</span>
+            </div>
+            <div class="summary-item total">
+              <span>Total to Pay:</span>
+              <span class="amount">₹500.00</span>
+            </div>
+          </div>
+
+          <div class="payment-section">
+            <h4>Select Payment Method</h4>
+            <div class="payment-options">
+              <label class="payment-option">
+                <input type="radio" name="paymentMethod" value="UPI" checked>
+                <div class="payment-box">
+                  <i class="ph ph-qr-code"></i>
+                  <span>UPI / GPay</span>
+                </div>
+              </label>
+              <label class="payment-option">
+                <input type="radio" name="paymentMethod" value="Card">
+                <div class="payment-box">
+                  <i class="ph ph-credit-card"></i>
+                  <span>Card</span>
+                </div>
+              </label>
+            </div>
+
+            <!-- Simulated QR Section -->
+            <div class="qr-display glass">
+              <p>Scan QR to pay securely</p>
+              <div class="mock-qr">
+                <i class="ph ph-qr-code"></i>
+                <div class="qr-corner top-left"></div>
+                <div class="qr-corner top-right"></div>
+                <div class="qr-corner bottom-left"></div>
+                <div class="qr-corner bottom-right"></div>
+              </div>
+              <p class="upi-id">UPI ID: vn@paytm</p>
+            </div>
+          </div>
+          
+          <div class="step-btns">
+            <button type="button" class="btn btn-outline prev-step">Back</button>
+            <button type="submit" class="btn btn-primary" id="confirmBooking">Confirm & Pay ₹500</button>
+          </div>
+        </div>
+
+        <!-- Step 3: Success -->
+        <div class="form-step" id="step3">
+          <div class="success-receipt glass">
+            <div class="success-icon">
+              <i class="ph ph-check-circle"></i>
+            </div>
+            <h3>Seat Booked!</h3>
+            <p>Your seat for Class <strong id="recClass">-</strong> has been successfully reserved for <strong id="recName">-</strong>.</p>
+            
+            <div class="receipt-details">
+              <div class="r-row"><span>Receipt No:</span><strong id="recId">#VN2026-X</strong></div>
+              <div class="r-row"><span>Amount Paid:</span><strong>₹500.00</strong></div>
+              <div class="r-row"><span>Status:</span><span class="status-badge">Confirmed</span></div>
+            </div>
+            
+            <p class="note">A copy of this receipt has been sent to your phone. Please visit the school office with this receipt for final documentation.</p>
+            <button type="button" class="btn btn-primary" id="finishBooking">Done</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <i class="ph-fill ph-student"></i>
+          <span>VIDYA NIKETAN</span>
+        </a>
+        <p>Empowering the next generation with quality education and values. Affiliated to CBSE, New Delhi (10+2).</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="ph ph-map-pin"></i> ANUGRAH NARAYAN RD, PATNA</p>
+        <p><i class="ph ph-phone"></i> +91 98765 43210</p>
+        <p><i class="ph ph-envelope"></i> info@vidyaniketan.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2024 VIDYA NIKETAN. All Rights Reserved. | Nursery to Class XII</p>
+        <p class="dev-credits">Developed with ❤️ by <strong>Anurag Jha</strong> | Business Inquiry: <a href="mailto:vipsaj@gmail.com">vipsaj@gmail.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
